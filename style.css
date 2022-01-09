@@ -1,0 +1,43 @@
+body{
+    background-color: #2D2D2D;
+}
+.clock{
+    background-image: url(img/clock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    height: 500px;
+    width: 500px;
+    background-color: snow;
+    display: inline-block;
+    text-align: center;
+    background-color: #2D2D2D;
+    position: relative;
+}
+.arrow{
+    height: 140px;
+    width: 25px;
+    position: absolute;
+    top: 110px;
+    right: 236px;
+    transform-origin: bottom;
+    
+    
+}
+
+#arrow-hour{
+    
+    height: 100px;
+    width: 25px;
+    top: 150px;
+    right: 236px;
+}
+.title{
+    text-align: center;
+    color: snow;
+    font-size: 80px;
+    font-family: "Sofia", sans-serif;
+}
+.hizala{
+    text-align: center;
+}
